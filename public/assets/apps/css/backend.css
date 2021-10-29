@@ -1,0 +1,57 @@
+.bg-gradient {
+	background: #fedc00; 
+	background: linear-gradient(90deg, #fedc00 0%,#fffc00 100% );
+}
+
+.bg-pattern {
+	background-image: url(/assets/apps/img/pattern.png) !important;
+}
+
+.bg-image {
+	background-image: url(/assets/apps/img/welcome-bg.png) !important;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+td.details-control {
+	background: url('/assets/apps/img/plus.png') no-repeat center center;
+	background-size: 20px 20px;
+	cursor: pointer;
+}
+tr.spinner td.details-control {
+	background: url('/assets/apps/img/sand-clock.png') no-repeat center center;
+	background-size: 20px 20px;
+}
+tr.shown td.details-control {
+	background: url('/assets/apps/img/minus.png') no-repeat center center;
+	background-size: 20px 20px;
+}
+
+.floating-button-wrapper {
+	position: fixed;
+    bottom: 60px;
+    right: 25px;
+	z-index: 1000;
+}
+
+.select2-container {
+	width: 100% !important;
+}
+
+.icn-spinner {
+	animation: fade-in 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	display: inline-block;
+}
+
+@keyframes fade-in {
+	0% {
+		transform: rotateX(80deg);
+		opacity: 0;
+	}
+	100% {
+		transform: rotateX(0);
+		opacity: 1;
+	}
+}
