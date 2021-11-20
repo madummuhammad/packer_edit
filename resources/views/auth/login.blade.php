@@ -39,7 +39,7 @@
 
 @section('script')
 
-<script>
+<!-- <script>
 
     @if (Session::has('success'))
     Swal.fire('Good job!', "{{ Session::get('success') }}", 'success');
@@ -85,6 +85,6 @@
 
     });
 
-</script>
+</script> -->
 
 @endsection
